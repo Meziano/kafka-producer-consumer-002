@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: kafka-producer-consumer
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      value-deserializer: de.meziane.kafka_stream.serde.PersonDeserializer
+    producer:
+      value-serializer: de.meziane.kafka_stream.serde.PersonSerializer
