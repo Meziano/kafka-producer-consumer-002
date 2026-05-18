@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>de.meziane.kafka-stream</groupId>
-	<artifactId>schema-registry</artifactId>
+	<artifactId>kafka-producer-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>schema-registry</name>
-	<description>Kafka schema-registry with Spring Boot</description>
+	<name>kafka-producer-consumer</name>
+	<description>Kafka Spring Boot project with a producer and a consumer producing and consuming messages of type object. A serializer and a deserializer must be used and Kfka must be informed via configuration to use them for the producer and consumer respectively.</description>
 	<url/>
 	<licenses>
 		<license/>
